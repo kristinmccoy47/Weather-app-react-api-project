@@ -1,0 +1,38 @@
+.home{
+    margin: auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.home-text{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   width: 50vw;
+}
+.weather-button{
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #500ae4;
+}
+
+
+.weatherhome-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width: 50px;
+}
